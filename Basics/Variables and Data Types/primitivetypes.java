@@ -25,5 +25,13 @@ char myChar = 'H';
 
 // Boolean (1) - True or False
 boolean isEligibile = true;
+
+
+byte x = 1;
+byte y = x;
+//These 2 variables are stored in different locations in memory and are independent from each other.
+x = 2;
+// If variable x changes, variable y won't be affected
+System.out.println(y);
     }
 }
