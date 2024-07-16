@@ -10,8 +10,17 @@ public class stringsandescsequences {
         // modifying the old one because Strings are immutable in Java
         System.out.println(message.toUpperCase());
     
-    // Escape Sequences
-    
+    // Escape Sequences: Special characters preceded by a backslash that allow you to include
+    // characters like newlines, tabs, and other special symbols within string literals.
+        
+        // Double quotes in a string
+        System.out.println("My name is \"Mike\""); 
+
+        // Backslash in a string (important for file locations)
+        System.out.println("c:\\Windows\\Desktop\\...");
+
+        // Adding a new line to a string
+        System.out.println("My name is:\nMike ");
         
     }
 
