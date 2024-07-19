@@ -11,7 +11,7 @@ public class casting{
         int i = (int)d + 2;
         System.out.println(i);
 
-        // Wrapper Classes
+        // Wrapper Classes - Used to cast incompatible types
         String s = "1";
         int n = Integer.parseInt(s) + 2;
 
