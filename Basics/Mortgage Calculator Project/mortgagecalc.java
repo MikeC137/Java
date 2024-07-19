@@ -13,9 +13,21 @@ public class mortgagecalc {
         scanner.nextLine();
 
         // Interest Rate
-        System.out.println("Annual Interest Rate: ");
+        System.out.print("Annual Interest Rate: ");
         Double interestRate = scanner.nextDouble() / 100;
         // System.out.println(interestRate);
 
+        scanner.nextLine();
+
+        // Period
+        System.out.print("Period (Years): ");
+        int period = scanner.nextInt();
+
+        scanner.nextLine();
+
+        // Calculation 
+        double mortgageNumerator = Principal * (interestRate / 12) ;
+        double mortgageDenominator = 1 - (Math.pow(( 1 + interestRate/12), -12 * period));
+        System.out.println("Mortgage: " + currency.format(mortgageNumerator/mortgageDenominator));
     }
 }
