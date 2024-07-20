@@ -7,7 +7,7 @@ public class mortgagecalc {
         NumberFormat currency = NumberFormat.getCurrencyInstance(); 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Principal: ");
-        double Principal = scanner.nextDouble();
+        double principal = scanner.nextDouble();
 
         scanner.nextLine();
 
@@ -20,12 +20,13 @@ public class mortgagecalc {
         // Period
         System.out.print("Period (Years): ");
         int period = scanner.nextInt();
-
+        
         scanner.nextLine();
 
         // Calculation 
-        double mortgageNumerator = Principal * (interestRate / 12) ;
-        double mortgageDenominator = 1 - (Math.pow(( 1 + interestRate/12), -12 * period));
+        final byte MONTHS_IN_YEAR = 12;
+        double mortgageNumerator = principal * (interestRate / MONTHS_IN_YEAR) ;
+        double mortgageDenominator = 1 - (Math.pow(( 1 + interestRate/MONTHS_IN_YEAR), -MONTHS_IN_YEAR * period));
         System.out.println("Mortgage: " + currency.format(mortgageNumerator/mortgageDenominator));
     }
 }
