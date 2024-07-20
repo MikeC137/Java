@@ -7,15 +7,13 @@ public class mortgagecalc {
         NumberFormat currency = NumberFormat.getCurrencyInstance(); 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Principal: ");
-        Double Principal = scanner.nextDouble();
-        // System.out.println(currency.format(Principal));
+        double Principal = scanner.nextDouble();
 
         scanner.nextLine();
 
         // Interest Rate
         System.out.print("Annual Interest Rate: ");
-        Double interestRate = scanner.nextDouble() / 100;
-        // System.out.println(interestRate);
+        double interestRate = scanner.nextDouble() / 100;
 
         scanner.nextLine();
 
