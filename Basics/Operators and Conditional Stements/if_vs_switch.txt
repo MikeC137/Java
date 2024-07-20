@@ -1,0 +1,9 @@
+Use If when:
+- Dealing with complex conditions that require logical operators (&&, ||), ranges or other expressions that
+can't be handled by a "switch" statement
+- The conditions involve variables or expressions that are not constant
+- Checking different variables or expressions
+
+Use switch when:
+- Dealing with multiple conditions on the same variable ( a single variable vs multiple constant values)
+- Using enumerations
