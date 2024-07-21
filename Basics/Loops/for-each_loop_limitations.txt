@@ -1,0 +1,4 @@
+For-Each Loop Limitations:
+- We cannot iterate over this array from the end to the beginning 
+- We don't have access to the index of each item. We only have access to a loop variable that holds
+ the value of each element in the array
