@@ -5,7 +5,7 @@ public class while_loops {
         // This program will allow the user to enter an input until they enter "quit"
         String input = "";
         Scanner scanner = new Scanner(System.in);
-        while (!input.equals("quit")) {
+        while (true) {
             System.out.print("Input: ");
             input = scanner.nextLine().toLowerCase();
             if (input.equals("pass"))
