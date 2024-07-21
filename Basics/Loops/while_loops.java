@@ -10,5 +10,14 @@ public class while_loops {
             input = scanner.nextLine().toLowerCase();
             System.out.println(input);
         }
+
+        // A Do-While Loop is similar to a while loop but it gets executed at least once
+        // If the condition is false in a while loop, the code will not be executed
+        // In contrast, do-while loops check the condition last
+        do {
+            System.out.print("Input: ");
+            input = scanner.nextLine().toLowerCase();
+            System.out.println(input);
+        } while (!input.equals("quit"));
     }
 }
