@@ -1,4 +1,4 @@
-public class arithmeticexpressions{
+public class ArithmeticExpressions{
     public static void main(String[] args) {
         int x = 1;
         x++; // The operator can also be applied as a prefix (++x) in this case

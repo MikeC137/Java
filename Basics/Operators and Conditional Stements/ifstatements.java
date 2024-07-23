@@ -1,4 +1,4 @@
-public class ifstatements {
+public class IfStatements {
     public static void main(String[] args) {
         int temp = 32;
         if (temp > 30) { // curly braces added to define a code block

@@ -1,4 +1,4 @@
-public class mathclass{
+public class MathClass{
     public static void main(String[] args) {
         int rounding = Math.round(1.1F);
         int ceiling = (int)Math.ceil(1.3F); 

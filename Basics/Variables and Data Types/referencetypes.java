@@ -1,7 +1,7 @@
 import java.util.Date;
 import java.awt.*;
 
-public class referencetypes {
+public class ReferenceTypes {
     public static void main(String[] args) {
     // We have to use 'new' operator to allocate memory for this variable. We only do this for reference types!
     // When dealing with reference types, memory is allocated and released by Java runtime environment

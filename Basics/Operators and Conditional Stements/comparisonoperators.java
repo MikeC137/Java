@@ -1,4 +1,4 @@
-public class comparisonoperators {
+public class ComparisonOperators {
     public static void main(String[] args) {
         // Comparison operators are used to compare primitive values
         int x = 1;

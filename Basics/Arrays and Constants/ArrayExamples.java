@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class arrays{
+public class ArrayExamples{
 
     public static void main(String[] args) {
         int [] numbers = new int[5]; // 5 represents the length of the array
@@ -10,7 +10,7 @@ public class arrays{
                 System.out.println(Arrays.toString(numbers));
         // The other and easier way to initialize an array...
         int [] nums = {2, 3, 5, 4, 1};
-        System.out.println(nums.length);
+        System.out.println(nums.length); 
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
 

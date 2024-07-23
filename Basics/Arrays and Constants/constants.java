@@ -1,4 +1,4 @@
-public class constants{
+public class Constants{
 
     public static void main(String[] args) {
         // The "final" keyword prevents the value of a variable from changing. 

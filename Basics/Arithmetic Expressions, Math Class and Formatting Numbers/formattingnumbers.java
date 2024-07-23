@@ -1,6 +1,6 @@
 import java.text.NumberFormat;
 
-public class formattingnumbers {
+public class FormattingNumbers {
     public static void main(String[] args) {
         NumberFormat currency = NumberFormat.getCurrencyInstance(); {  // NumberFormat is an abstract class, therefore it can't
         // be instantiated. We can't use "new NumberFormat;"

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class readinginputs {
+public class ReadingInputs {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // System.in is used to work with the terminal window
         System.out.print("Age: ");

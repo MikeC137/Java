@@ -1,4 +1,4 @@
-public class switchstatements {
+public class SwitchStatements {
     public static void main(String[] args) {
         String role = "admin";
 

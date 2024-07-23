@@ -1,4 +1,4 @@
-public class casting{
+public class Casting{
     public static void main(String[] args) {
         // Implicit Casting - Automatic casting that happens when a value is converted to a bigger data type 
         // byte > short > int > long > float > double

@@ -1,4 +1,4 @@
-public class logicaloperators {
+public class LogicalOperators {
     public static void main(String[] args) {
         // Combining Boolean Expressions 
         
