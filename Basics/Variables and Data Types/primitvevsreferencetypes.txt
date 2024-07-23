@@ -2,7 +2,7 @@ PRIMITIVE VS REFERENCE TYPES
 
 STORAGE: Primitive types store actual values; reference types store references to objects.
 
-MEMORY MANAGEMENT: Primitive types store their values directly in memory while Reference
+MEMORY MANAGEMENT: Primitive types store their values directly in memory (stack) while Reference
 types store references (or pointers) to their objects in memory. The actual object data is stored in the heap.
 
 DEFAULT VALUE: Primitives have specific default values (0, false, etc.); references default to null.
