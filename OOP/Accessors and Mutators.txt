@@ -1,0 +1,7 @@
+ACCESSORS AND MUTATORS
+
+Accessors and mutators are often called getters and setters.
+
+Accessors are used to retrieve the values of private attributes. They are also called getters. They are defined using the get keyword.
+
+Mutators are used to set the values of private attributes. They are also called setters. They are defined using the set keyword.

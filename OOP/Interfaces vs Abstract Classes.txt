@@ -1,0 +1,27 @@
+INTERFACES VS ABSTRACT CLASSES
+
+Interfaces and abstract classes are two important concepts in object-oriented programming that allow for abstraction and polymorphism. While they have some similarities, they also have key differences that make them suitable for different use cases.
+
+An interface is a reference type in Java that is similar to a class but can only contain method signatures, default methods, static methods, and constant variables. An interface cannot contain method implementations, instance variables, or constructors. Interfaces are used to define a contract for classes that implement them, specifying the methods that the implementing classes must provide. An interface can be implemented by any class, regardless of its inheritance hierarchy. A class can implement multiple interfaces, allowing for multiple inheritance of type.
+
+An abstract class is a class that cannot be instantiated and can contain both abstract and concrete methods. An abstract method is a method that is declared but not implemented in the abstract class, while a concrete method is a method that is implemented in the abstract class. Abstract classes are used to define a common interface for a group of related classes, providing a base implementation that can be shared by the subclasses. An abstract class can have instance variables, constructors, and member methods, in addition to abstract methods.
+
+Hypothetical scenario to illustrate the difference between interfaces and abstract classes: 
+
+Suppose you are designing a system for a zoo that contains different types of animals. You want to define a common interface for all animals that specifies the methods that each animal must provide, such as eat(), sleep(), and makeSound(). In this case, you would use an interface to define the Animal interface, which would be implemented by classes such as Lion, Tiger, and Elephant. Each animal class would provide its own implementation of the eat(), sleep(), and makeSound() methods.
+
+Now, suppose you want to define a common behavior for a group of animals that are mammals, such as the ability to give birth to live young. In this case, you would use an abstract class to define the Mammal abstract class, which would contain a concrete method giveBirth() that is shared by all mammal subclasses. The Lion, Tiger, and Elephant classes would then extend the Mammal abstract class to inherit the giveBirth() method.
+
+The key differences between interfaces and abstract classes are:
+
+1. An interface can only contain method signatures, while an abstract class can contain both abstract and concrete methods.
+
+2. A class can implement multiple interfaces, but it can only extend one abstract class. This allows for multiple inheritance of type with interfaces, but not with abstract classes.
+
+3. An interface is used to define a contract for classes that implement it, while an abstract class is used to define a common interface for a group of related classes.
+
+4. An interface is used to achieve full abstraction, while an abstract class is used to achieve partial abstraction.
+
+5. An interface is used to achieve loose coupling between classes, while an abstract class is used to achieve tight coupling between classes.
+
+In summary, interfaces and abstract classes are two important concepts in object-oriented programming that allow for abstraction and polymorphism. Interfaces are used to define a contract for classes that implement them, while abstract classes are used to define a common interface for a group of related classes. The choice between using an interface or an abstract class depends on the specific requirements of the design and the level of abstraction needed.

@@ -1,0 +1,19 @@
+METHOD OVERLOADING VS METHOD OVERRIDING
+
+Method Overloading: When a class has multiple methods with the same name but different parameters, it is known as method overloading. It is used to increase the readability of the program. It is a compile-time polymorphism.
+
+Method Overriding: When a subclass provides a specific implementation of a method that is already provided by its superclass, it is known as method overriding. It is used to provide a specific implementation of a method that is already provided by its superclass. It is a runtime polymorphism.
+
+The key differences between method overloading and method overriding are:
+
+1. Method overloading occurs in the same class, while method overriding occurs in two classes that have an inheritance relationship.
+
+2. Method overloading is achieved by changing the number of parameters or the data type of the parameters, while method overriding is achieved by changing the method implementation in the subclass.
+
+3. Method overloading is a compile-time polymorphism, while method overriding is a runtime polymorphism.
+
+4. Method overloading is used to increase the readability of the program, while method overriding is used to provide a specific implementation of a method.
+
+5. Method overloading is also known as static binding, while method overriding is also known as dynamic binding.
+
+In summary, method overloading and method overriding are two important concepts in object-oriented programming that allow for polymorphism. Method overloading is used to increase the readability of the program, while method overriding is used to provide a specific implementation of a method in a subclass.

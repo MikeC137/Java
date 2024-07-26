@@ -1,0 +1,5 @@
+ABSTRACTION
+
+Abstraction is the concept of hiding the complex implementation details and showing only the necessary features of the object. In other words, it deals with the outside view of an object (interface) rather than the inside view (implementation). Abstraction is achieved using abstract classes and interfaces in Java.
+
+For example, let's say we have a class Animal with abstract methods like eat() and sleep(). The Animal class can be extended by other classes like Dog and Cat, which provide their own implementation for the eat() and sleep() methods. The Animal class acts as an abstraction, providing a common interface for all its subclasses.

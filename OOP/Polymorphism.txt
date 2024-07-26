@@ -1,0 +1,5 @@
+POLYMORPHISM
+
+The term "polymorphism" means "many forms," and it refers to the ability of different objects to identify themselves as instances of a common superclass. In other words, polymorphism allows objects of different classes to be treated as objects of a common superclass. This means that a single method call can produce different results depending on the type of object that receives the call.
+
+There are two types of polymorphism: compile-time polymorphism and runtime polymorphism. Compile-time polymorphism is achieved through method overloading, while runtime polymorphism is achieved through method overriding.

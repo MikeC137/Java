@@ -1,0 +1,7 @@
+OVERRIDING THE TOSTRING() AND EQUALS() METHODS
+
+Overriding the toString() method: The toString() method is a built-in method in the Object class that returns a string representation of an object. By default, the toString() method returns a string that consists of the class name followed by the memory address of the object. However, you can override the toString() method in your own classes to provide a more meaningful string representation of the object. This can be useful for debugging and logging purposes.
+
+Overriding the equals() method: The equals() method is a built-in method in the Object class that is used to compare two objects for equality. By default, the equals() method compares the memory addresses of the two objects. However, you can override the equals() method in your own classes to provide a custom implementation of object equality. This can be useful when you want to compare objects based on their attributes rather than their memory addresses.
+
+Note: When overriding the equals() method, you should also override the hashCode() method. The hashCode() method is used to generate a hash code for an object, which is used by hash-based data structures such as HashMap and HashSet. The hashCode() method should be consistent with the equals() method, meaning that if two objects are equal according to the equals() method, they should have the same hash code according to the hashCode() method.
