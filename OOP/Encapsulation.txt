@@ -1,0 +1,12 @@
+Encapsulation refers to the practice of bundling data (attributes) and methods (functions) into a single unit
+called an object. Encapsulation helps to restrict direct access some of an object's components, which can 
+prevent the accidental modification of data and promote modularity and code maintainability.
+
+Private Fields: Data within an object is typically made private or protected so that it cannot be directly
+accessed or modified from outside the object.
+
+Public Methods: Access to data is controlled through public methods (getters and setters). These methods allow
+controlled access and modification of the data.
+
+Data Hiding: Encapsulation helps in hiding the internal state of the object and only exposes what is necessary,
+thus providing a clear interface and reducing the risk of unintended interference.
