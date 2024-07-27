@@ -1,0 +1,6 @@
+1. Library Class 
+2. Library Operations Interface - DONE
+3. Library Member Class
+4. Library Item Class (abstract class)- DONE
+5. Book Class extends LibraryItem - DONE
+6. Magazine Class extends LibraryItem - DONE
