@@ -1,13 +1,21 @@
 CONSTRUCTORS
 
-Constractors in Java are special methods that are used to create objects from a class. They are called when an object is created and are used to initialize the object's state. Constructors have the same name as the class and do not have a return type. They can have parameters to initialize the object with specific values.
+Constractors in Java are special methods that are used to create objects from a class. They are called when 
+an object is created and are used to initialize the object's state. Constructors have the same name as the 
+class and do not have a return type. They can have parameters to initialize the object with specific values.
 
 There are two types of constructors in Java:
 
-1. Default Constructor: A default constructor is a constructor that does not have any parameters. If a class does not have any constructors defined, Java automatically provides a default constructor that initializes the object with default values. However, if a class has at least one constructor defined, the default constructor is not provided by Java and must be defined explicitly.
+1. Default Constructor: A default constructor is a constructor that does not have any parameters. If a class 
+does not have any constructors defined, Java automatically provides a default constructor that initializes the 
+object with default values. However, if a class has at least one constructor defined, the default constructor 
+is not provided by Java and must be defined explicitly.
 
-2. Parameterized Constructor: A parameterized constructor is a constructor that has one or more parameters. It is used to initialize the object with specific values provided by the caller.
+2. Parameterized Constructor: A parameterized constructor is a constructor that has one or more parameters. 
+It is used to initialize the object with specific values provided by the caller.
 
 Overloading Constructors:
 
-Constructors can be overloaded in Java, which means that a class can have multiple constructors with different parameter lists (different signatures). When an object is created, the appropriate constructor is called based on the arguments provided.
+Constructors can be overloaded in Java, which means that a class can have multiple constructors with different 
+parameter lists (different signatures). When an object is created, the appropriate constructor is called based 
+on the arguments provided.

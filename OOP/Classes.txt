@@ -1,17 +1,24 @@
 CLASSES IN JAVA
 
-A class is a blueprint for objects. It defines the properties (fields) and behaviors (methods) that the objects created from the class can have.
+A class is a blueprint for objects. It defines the properties (fields) and behaviors (methods) that the objects
+created from the class can have.
 
 Key Components of a Class:
 
-1. Fields: Fields are variables that represent the state of an object. They are also known as instance variables. Fields are declared at the class level and are accessible to all methods of the class.
+1. Fields: Fields are variables that represent the state of an object. They are also known as instance 
+variables. Fields are declared at the class level and are accessible to all methods of the class.
 
-2. Methods: Methods are functions that define the behavior of an object. They can be used to perform operations on the object's state or to provide information about the object.
+2. Methods: Methods are functions that define the behavior of an object. They can be used to perform operations
+on the object's state or to provide information about the object.
 
-3. Constructors: Constructors are special methods that are used to create objects from a class. They are called when an object is created and are used to initialize the object's state.
+3. Constructors: Constructors are special methods that are used to create objects from a class. They are called
+when an object is created and are used to initialize the object's state.
 
-4. Access Modifiers: Access modifiers are keywords that define the visibility of a class, field, or method. There are four access modifiers in Java: public, private, protected, and package-private (default).
+4. Access Modifiers: Access modifiers are keywords that define the visibility of a class, field, or method. 
+There are four access modifiers in Java: public, private, protected, and package-private (default).
 
-5. Inner Classes: Inner classes are classes defined within another class. They can be used to logically group classes that are only used in one place or to encapsulate helper classes.
+5. Inner Classes: Inner classes are classes defined within another class. They can be used to logically group 
+classes that are only used in one place or to encapsulate helper classes.
 
-6. Static Members: Static members are class-level members that are shared among all instances of a class. They are declared using the static keyword.
+6. Static Members: Static members are class-level members that are shared among all instances of a class. 
+They are declared using the static keyword.
