@@ -12,12 +12,16 @@ The key differences between method overloading and method overriding are:
 1. Method overloading occurs in the same class, while method overriding occurs in two classes that have an inheritance 
 relationship.
 
-2. Method overloading is achieved by changing the number of parameters or the data type of the parameters, while method overriding is achieved by changing the method implementation in the subclass.
+2. Method overloading is achieved by changing the number of parameters or the data type of the parameters, 
+while method overriding is achieved by changing the method implementation in the subclass.
 
 3. Method overloading is a compile-time polymorphism, while method overriding is a runtime polymorphism.
 
-4. Method overloading is used to increase the readability of the program, while method overriding is used to provide a specific implementation of a method.
+4. Method overloading is used to increase the readability of the program, while method overriding is used to provide a 
+specific implementation of a method.
 
 5. Method overloading is also known as static binding, while method overriding is also known as dynamic binding.
 
-In summary, method overloading and method overriding are two important concepts in object-oriented programming that allow for polymorphism. Method overloading is used to increase the readability of the program, while method overriding is used to provide a specific implementation of a method in a subclass.
+In summary, method overloading and method overriding are two important concepts in object-oriented programming that 
+allow for polymorphism. Method overloading is used to increase the readability of the program, while method overriding 
+is used to provide a specific implementation of a method in a subclass.
