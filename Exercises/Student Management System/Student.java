@@ -11,6 +11,7 @@ public class Student {
     public Student(String name, String id) {
         this.name = name;
         this.id = id;
+        this.grades = new ArrayList<>();
     }
 
     // Methods
@@ -35,4 +36,29 @@ public class Student {
         System.out.println("Student Name: " + name + "\nID: " + id + "\nAverage Grade: " + calculateAverage());
     }
 
+    // Getters
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public ArrayList<Double> getGrades() {
+        return grades;
+    }
+
+    // Setters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setGrades(ArrayList<Double> grades) {
+        this.grades = grades;
+    }
 }
