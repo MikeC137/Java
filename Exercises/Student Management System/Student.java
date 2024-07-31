@@ -1,64 +1,98 @@
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
-public class Student {
+public class Student extends Person {
     // Private Fields
     private String id;
-    private String name;
-    private ArrayList<Double> grades;
+    private String gradeLevel;
+    private String major;
+    private List<Course> courses;
+    private List<Grade> grades;
 
     // Constructor
-    public Student(String name, String id) {
-        this.name = name;
+    public Student() {
+        super();
+        id = "";
+        gradeLevel = "";
+        major = "";
+        courses = new ArrayList<>();
+        grades = new ArrayList<>();
+    }
+
+    public Student(String name, int age, String address, String email, String id, String gradeLevel, String major) {
+        super(name, age, address, email);
         this.id = id;
-        this.grades = new ArrayList<>();
+        this.gradeLevel = gradeLevel;
+        this.major = major;
+        courses = new ArrayList<>();
+        grades = new ArrayList<>();
     }
 
-    // Methods
-
-    // Add a grade
-    public void addGrade(double grade) {
-        grades.add(grade);
-        System.out.println("Grade added successfully");
+    public Student(String name, int age, String address, String id, String gradeLevel, String major) {
+        super(name, age, address);
+        this.id = id;
+        this.gradeLevel = gradeLevel;
+        this.major = major;
+        courses = new ArrayList<>();
+        grades = new ArrayList<>();
     }
 
-    // Calculate average grade
-    public double calculateAverage() {
-        int sum = 0;
-        for (double grade : grades) {
-            sum += grade;
-        }
-        return sum / grades.size();
+    public List<Course> getCourses() {
+        return courses;
     }
 
-    // Return Student Info
-    public void getInfo() {
-        System.out.println("Student Name: " + name + "\nID: " + id + "\nAverage Grade: " + calculateAverage());
-    }
-
-    // Getters
     public String getId() {
         return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public ArrayList<Double> getGrades() {
-        return grades;
-    }
-
-    // Setters
-    public void setName(String name) {
-        this.name = name;
     }
 
     public void setId(String id) {
         this.id = id;
     }
 
-    public void setGrades(ArrayList<Double> grades) {
-        this.grades = grades;
+    public String getGradeLevel() {
+        return gradeLevel;
+    }
+
+    public void setGradeLevel(String gradeLevel) {
+        this.gradeLevel = gradeLevel;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public List<Grade> getGrades() {
+        return grades;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public void addCourse(Course course) {
+        this.courses.add(course);
+    }
+
+    public void addGrade(Grade grade) {
+        this.grades.add(grade);
+    }
+
+    public void study() {
+        System.out.println(getName() + "is studying");
+    }
+
+    public void rateTeacher(int rating, Teacher teacher) {
+        teacher.setRating(rating);
+    }
+
+    public void takeExam() {
+        System.out.println(getName() + "is taking an exam");
+    }
+
+    @Override
+    public String toString() {
+        return "Student [id=" + id + ", gradeLevel=" + gradeLevel + ", major=" + major + ", courses=" + courses
+                + ", grades=" + grades + ", getName()=" + getName() + "]";
     }
 }
