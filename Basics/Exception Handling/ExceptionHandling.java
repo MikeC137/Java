@@ -1,4 +1,4 @@
-public class exception_handling {
+public class ExceptionHandling {
     public static void main(String[] args) {
         // Exception: An unwanted result that interrupts the normal flow of a program
 
