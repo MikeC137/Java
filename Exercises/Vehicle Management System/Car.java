@@ -17,8 +17,12 @@ public class Car extends Vehicle {
         System.out.println("The engine of " + getMake() + " " + getModel() + "is off");
     }
 
-    public void ride(double milesDriven) {
-        System.out.println("The vehicle just completed a trip");
-        setMileage(milesDriven);
+    // Getter and Setter
+    public int getNumOfSeats() {
+        return numOfSeats;
+    }
+
+    public void setNumOfSeats(int numOfSeats) {
+        this.numOfSeats = numOfSeats;
     }
 }

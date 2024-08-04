@@ -24,9 +24,9 @@ public abstract class Vehicle {
         System.out.println("The engine is off");
     }
 
-    public void ride(double milesDriven) {
-        System.out.println("The vehicle just completed a trip");
-        mileage = milesDriven;
+    public double ride(double milesDriven) {
+        System.out.print("The vehicle just completed a trip\nTotal vehicle mileage: ");
+        return mileage = +milesDriven;
     }
 
     // Getters and Setters
