@@ -1,0 +1,15 @@
+WHAT ARE STREAMS IN JAVA?
+
+Streams in Java are a powerful and modern way to process collections of objects. Streams are not data structures that 
+store elements; instead, they are a way to process elements from a source such as a collection, array, or I/O channel. 
+Streams are designed to work with functional programming concepts such as lambda expressions and method references. 
+They provide a way to perform operations on collections in a declarative way, which can make code more concise and 
+readable.
+
+Some useful methods in Streams are:
+
+1. filter(): This method is used to filter elements based on a given predicate.
+2. map(): This method is used to transform elements into another form.
+3. forEach(): This method is used to iterate over elements and perform an action on each element.
+4. collect(): This method is used to collect elements into a collection.
+5. reduce(): This method is used to reduce the elements of a stream to a single value.
