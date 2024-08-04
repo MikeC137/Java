@@ -16,18 +16,11 @@ public abstract class Vehicle {
     }
 
     // Methods
-    public void startEngine() {
-        System.out.println("The engine is on");
-    }
+    public abstract void startEngine();
 
-    public void stopEngine() {
-        System.out.println("The engine is off");
-    }
+    public abstract void stopEngine();
 
-    public double ride(double milesDriven) {
-        System.out.print("The vehicle just completed a trip\nTotal vehicle mileage: ");
-        return mileage = +milesDriven;
-    }
+    public abstract void drive(double milesDriven);
 
     // Getters and Setters
 
