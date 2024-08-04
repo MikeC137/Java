@@ -1,0 +1,26 @@
+WHAT ARE THREADS IN JAVA? 
+
+A thread is a lightweight sub-process, the smallest unit of processing. It is a separate path 
+of execution. Threads are independent, if an exception occurs in one thread, it doesn't affect 
+other threads. It shares a common memory area.
+
+Threads are used to utilize the CPU properly, they keep the CPU busy when the I/O operations are 
+being performed. It is a way to achieve multitasking.
+
+There are two ways to create a thread in Java:
+1. By extending the Thread class
+2. By implementing the Runnable interface
+
+The Thread class provides constructors and methods to create and perform operations on a thread. 
+The Runnable interface provides a single method run() that must be overridden by the user.
+
+The life cycle of a thread in Java is controlled by JVM. The thread states are:
+
+1. New: The thread is in this state before the start() method is called.
+2. Runnable: The thread is in this state after the start() method is called. The thread is ready to run.
+3. Running: The thread is in this state when the run() method is called.
+4. Blocked: The thread is in this state when it is waiting for a monitor lock.
+5. Dead: The thread is in this state when the run() method is completed.
+
+The thread scheduler is responsible for scheduling threads. It uses the preemptive or time-slicing 
+scheduling to schedule the threads.
