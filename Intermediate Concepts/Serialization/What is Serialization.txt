@@ -1,0 +1,17 @@
+WHAT IS SERIALIZATION?
+
+Serialization is the process of converting an object into a stream of bytes to store the object 
+or transmit it to memory, a database, or a file. Its main purpose is to save the state of an 
+object in order to be able to recreate it when needed. The reverse process is called 
+deserialization.
+
+The Java API has a mechanism to serialize objects called Object Serialization. When an object 
+is serialized, information about the object including its type information as well as the 
+information about the object's state is saved. After a serialized object is written into a 
+file, it can be read from the file and deserialized that is, the type information and state 
+of the object is recovered.
+
+Serialization is used in RMI, EJB and JMS technologies. The serialization of an object can be 
+achieved by implementing the java.io.Serializable interface. This is a marker interface which 
+does not have any methods in it. The ObjectOutputStream class contains writeObject() method for 
+serializing an Object.
