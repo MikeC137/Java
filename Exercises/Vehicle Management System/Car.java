@@ -9,12 +9,21 @@ public class Car extends Vehicle {
     }
 
     // Methods
+    @Override
     public void startEngine() {
         System.out.println("The engine of " + getMake() + " " + getModel() + "is on");
     }
 
+    @Override
     public void stopEngine() {
         System.out.println("The engine of " + getMake() + " " + getModel() + "is off");
+    }
+
+    @Override
+    public void drive(double milesDriven) {
+        System.out.println("Driving Car: " + getMake() + " " + getModel());
+        setMileage(getMileage() + milesDriven);
+        System.out.println("Total distance driven: " + getMileage());
     }
 
     // Getter and Setter
