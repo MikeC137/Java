@@ -1,7 +1,0 @@
-WHAT IS GARBAGE COLLECTION?
-
-Garbage collection is the process of automatically managing memory in Java. It is a form of automatic memory management that frees up memory by removing objects that are no longer in use. This helps prevent memory leaks and other memory-related issues.
-
-Garbage collection is performed by the Java Virtual Machine (JVM) and is an essential part of the Java programming language. It allows developers to focus on writing code without having to worry about memory management.
-
-Memory leaks can occur when objects are not properly removed from memory, leading to a buildup of unused memory. Garbage collection helps prevent memory leaks by automatically removing objects that are no longer needed.
