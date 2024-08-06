@@ -1,0 +1,3 @@
+UPCASTING AND DOWNCASTING
+
+Upcasting and Downcasting are two important concepts in Java. Upcasting is casting a subclass reference to a superclass reference. Downcasting is casting a superclass reference to a subclass reference. Upcasting is done implicitly by the compiler. Downcasting is done explicitly by the programmer.
